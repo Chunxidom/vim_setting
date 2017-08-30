@@ -56,14 +56,14 @@ filetype plugin indent on
 ## 3. YCM补全插件配置
 [来源](https://github.com/Valloric/YouCompleteMe)
 >### Ubuntu Linux x64
-
->These instructions (using install.py) are the quickest way to install YouCompleteMe, however they may not work for everyone. >If the following instructions don't work for you, check out the full installation guide.
 >
->Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 and later have a Vim that's recent enough. >You can see the version of Vim installed by running vim --version. If the version is too old, you may need to compile Vim >from source (don't worry, it's easy).
+>These instructions (using install.py) are the quickest way to install YouCompleteMe, however they may not work for everyone. If the following instructions don't work for you, check out the full installation guide.
+>
+>Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 and later have a Vim that's recent enough. You can see the version of Vim installed by running vim --version. If the version is too old, you may need to compile Vim from source (don't worry, it's easy).
 >
 >Install YouCompleteMe with Vundle.
 >
->Remember: YCM is a plugin with a compiled component. If you update YCM using Vundle and the ycm_core library APIs have >changed (happens rarely), YCM will notify you to recompile it. You should then rerun the install process.
+>Remember: YCM is a plugin with a compiled component. If you update YCM using Vundle and the ycm_core library APIs have changed (happens rarely), YCM will notify you to recompile it. You should then rerun the install process.
 >
 >Install development tools and CMake:
 >
@@ -86,11 +86,12 @@ filetype plugin indent on
 >TypeScript support: install Node.js and npm then install the TypeScript SDK with npm install -g typescript.
 >JavaScript support: install Node.js and npm and add --tern-completer when calling ./install.py.
 >Rust support: install Rust and add --racer-completer when calling ./install.py.
->To simply compile with everything enabled, there's a --all flag. So, to install with all language features, ensure xbuild, >go, tsserver, node, npm, rustc, and cargo tools are installed and in your PATH, then simply run:
+>To simply compile with everything enabled, there's a --all flag. So, to install with all language features, ensure xbuild, go, tsserver, node, npm, rustc, and cargo tools are installed and in your PATH, then simply run:
 >
 >cd ~/.vim/bundle/YouCompleteMe
 >./install.py --all
->That's it. You're done. Refer to the User Guide section on how to use YCM. Don't forget that if you want the C-family >semantic completion engine to work, you will need to provide the compilation flags for your project to YCM. It's all in the >User Guide.
+>That's it. You're done. Refer to the User Guide section on how to use YCM. Don't forget that if you want the C-family semantic completion engine to work, you will need to provide the compilation flags for your project to YCM. It's all in the User Guide.
 >
->YCM comes with sane defaults for its options, but you still may want to take a look at what's available for configuration. >There are a few interesting options that are conservatively turned off by default that you may want to turn on.
+>YCM comes with sane defaults for its options, but you still may want to take a look at what's available for configuration.   There are a few interesting options that are conservatively turned off by default that you may want to turn on.
+
 
