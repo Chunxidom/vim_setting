@@ -54,7 +54,7 @@ filetype plugin indent on
 `:PluginInstall``:PluginUpdate``:PluginClean`分别是安装，更新，删除相关插件
 
 ## 3. YCM补全插件配置
-[来源](https://github.com/Valloric/YouCompleteMe)
+来源[(https://github.com/Valloric/YouCompleteMe)](https://github.com/Valloric/YouCompleteMe)
 >### Ubuntu Linux x64
 >
 >These instructions (using install.py) are the quickest way to install YouCompleteMe, however they may not work for everyone. If the following instructions don't work for you, check out the full installation guide.
